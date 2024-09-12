@@ -1,0 +1,134 @@
+/* #8A74F9 */
+
+.autocomplete-wrapper {
+    position: relative;
+  }  
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+::ng-deep.searchInput .p-button{
+    font-family: Neo Sans Arabic;
+    width: 120px;
+    height: 35px;
+    background-color: #8A74F9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 13px 10px
+    
+}
+.button-container {
+    margin-right: 7px;
+    display: flex;
+    gap: 7px;
+}
+.p-button-rounded {
+    width: 40px;
+    height: 40px;
+}
+.button-container button{
+    background-color: #FFF;
+    width: 36px;
+    height: 36px;
+    border: #92A1AD66;
+    border-radius: 5px;
+
+}
+::ng-deep .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
+    background-color: #8A74F9 !important;
+    border-color: transparent;
+    box-shadow: none
+    
+}
+::ng-deep .p-inputswitch .p-inputswitch-slider {
+    background-color: #e9e9e9;
+    border-color: transparent !important; 
+    box-shadow: none
+}
+
+.inputSwitch{
+    margin-left:25px ;
+}
+.inputSwitch label {
+    margin-top:5px ;
+    margin-right:6px ;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.74px ;
+    font-family: Neo Sans Arabic;
+    color: #9C9D9F;
+}
+
+::ng-deep .autocomplete-wrapper .p-autocomplete {
+    height: 36px;
+    border: 1px solid #92A1AD66;
+    border: none;
+    color: #92A1AD66;
+    font-family: 'Neo Sans Arabic', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11.96px;
+}
+.autocomplete-wrapper {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 767px) {
+    .searchInput {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .button-container {
+        margin-right: 0px;
+        display: flex;
+        gap: 1px;
+    }
+    
+    .inputSwitch {
+        margin-top: 10px;
+    }
+
+    .reservationTicket {
+        margin-left: 62px;
+        flex-wrap: wrap;
+    }
+
+    .autocomplete-wrapper {
+        width: 100%;
+    }
+}
+.ui-dropdown {
+    margin-bottom: 210px; 
+}
+
+.ui-table .ui-table-paginator {
+    margin-top: 310px; 
+}
+::ng-deep .ui-dropdown {
+    margin-bottom: 20px;
+}
+
+::ng-deep .ui-paginator {
+    margin-top: 20px;
+}
+::ng-deep .searchInput .p-button:hover{
+    background-color:#6d54eb;
+    transition: 0.3s;
+
+}
+.button-container button:hover{
+    color: black;
+    background-color: #ddd;
+    transition: 0.3s;
+}

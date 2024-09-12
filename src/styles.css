@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'primeng/resources/themes/saga-blue/theme.css';
+
+@font-face {
+    font-family: 'Neo Sans Arabic';
+    src: url('/assets/fonts/NeoSansArabic.woff2') format('woff2'),
+         url('/assets/fonts/NeoSansArabic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    font-family: 'Neo Sans Arabic', sans-serif;
+  }

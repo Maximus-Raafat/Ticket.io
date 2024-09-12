@@ -1,0 +1,52 @@
+:host {
+    font-family: 'Inter', sans-serif;
+}
+
+.arabic {
+    font-family: 'Neo Sans Arabic', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    width: 100%;
+    height: 250px;
+    max-height: 250px;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    #main {
+        height: 250px;
+        max-height: 250px;
+    }
+
+    .arabic p {
+        font-size: 10px; 
+    }
+
+    p-dropdown {
+        width: 100%; 
+    }
+}
+
+p-dropdown {
+    position: relative;
+    z-index: 10;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}

@@ -1,0 +1,11 @@
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+
+  @media (max-width: 575.98px) {
+    .my-custom-col {
+      width: 100% !important; 
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }

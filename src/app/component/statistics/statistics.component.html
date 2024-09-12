@@ -1,0 +1,19 @@
+<div class="arabic col-12 parent" style="box-sizing: border-box;">
+  <div class="d-flex justify-content-between col-12 mt-3" style="height: 42px;">
+      <div>
+        <p-dropdown 
+        [options]="cities" 
+        [(ngModel)]="selectedCity" 
+        optionLabel="name"
+        placeholder="سنويا" />
+      </div>
+      <div style="line-height:1;">
+        <p style="text-align: end;">إحصائيات إستخدام القسيمة</p>
+        <p style="font-size: 12px; color: #99A1B7;">05 يوليو , 2023 - 05 أغسطس , 2023</p>
+      </div>
+  </div>
+
+  <div class="main-container">
+    <div id="main" class="col-12"></div>
+  </div>
+</div>
